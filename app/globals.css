@@ -34,3 +34,25 @@ body {
 .container {
   @apply px-[15px] mx-auto;
 }
+.activebfr::before {
+  content: "";
+    width: 23px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    border-bottom: 2px solid #30B6F9;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.nonactivebfr::before{
+  content: "";
+    width: 23px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    border-bottom: 2px solid transparent;
+    display: block;
+    float: left;
+    margin-right: 10px;}
+     
