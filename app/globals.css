@@ -1,7 +1,9 @@
 @import "tailwindcss";
+
 html {
   scroll-behavior: smooth;
 }
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -42,7 +44,7 @@ html {
   --text-40: var(--text-40);
   --text-48: var(--text-48);
   --text-60: var(--text-60);
- 
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,30 +57,56 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
- font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
+
 .container {
   @apply px-[15px] mx-auto;
 }
+
 .activebfr::before {
   content: "";
-    width: 23px;
-    position: relative;
-    top: 10px;
-    left: 0;
-    border-bottom: 2px solid #30B6F9;
-    display: block;
-    float: left;
-    margin-right: 10px;
+  width: 23px;
+  position: relative;
+  top: 10px;
+  left: 0;
+  border-bottom: 2px solid #30B6F9;
+  display: block;
+  float: left;
+  margin-right: 10px;
 }
-.nonactivebfr::before{
+
+.nonactivebfr::before {
   content: "";
-    width: 23px;
-    position: relative;
-    top: 10px;
-    left: 0;
-    border-bottom: 2px solid transparent;
-    display: block;
-    float: left;
-    margin-right: 10px;}
-     
+  width: 23px;
+  position: relative;
+  top: 10px;
+  left: 0;
+  border-bottom: 2px solid transparent;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.sprintswiper .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: absolute;
+  top: 1rem!important;
+  /* adjust as needed */
+  left: unset!important;
+  right: 1rem!important;
+  /* adjust as needed */
+  z-index: 10;
+  width: fit-content!important;
+}
+
+.sprintswiper .swiper-pagination-bullet-active {
+  background-color: #30B6F9!important;
+}
+
+.sprintswiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}

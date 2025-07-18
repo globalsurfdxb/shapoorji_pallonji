@@ -1,8 +1,6 @@
-import React from 'react'
-
-const SectionOne = () => {
+const Home = () => {
   return (
-    <section id="section1" className="h-screen flex items-center justify-center  bg-cover bg-center heroafter"
+    <section id="home" className="h-screen flex items-center justify-center  bg-cover bg-center heroafter"
       style={{
         backgroundImage: "url('../assets/images/hero-bg1.jpg')",
       }}>
@@ -11,7 +9,7 @@ const SectionOne = () => {
         <h1 className="text-4xl font-bold mb-4">Trusted Legacy of Engineering Excellence</h1>
       </div>
     </section>
-  )
+  );
 }
-
-export default SectionOne 
+ 
+export default Home;

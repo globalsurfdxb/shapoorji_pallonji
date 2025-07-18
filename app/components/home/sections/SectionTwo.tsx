@@ -1,5 +1,5 @@
 import React from 'react'
-import Index from '../../about/Index'
+import Index from '../../sprint/Index'
 
 const SectionTwo = () => {
   return (
