@@ -8,9 +8,6 @@ const LeftContainer = () => {
       <div className="absolute top-0 left-0 w-full z-10 h-full bg-amber-50">
         <Image src={aboutData.leftBgImage} alt="" width={2000} height={1500} className="w-full h-full object-cover"/>
       </div>
-      <div className="relative z-40 mt-20">
-        <h3>Menu block</h3>
-      </div>
     </div>
    );
 }

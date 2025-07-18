@@ -3,7 +3,7 @@ import RightContainer from "./sections/RightContainer";
 
 const Index = () => {
   return (
-    <section className="h-screen" id="section2">
+    <section className="h-screen" id="about">
       <div className="grid grid-cols-[2fr_5fr] h-full">
         <LeftContainer />
         <RightContainer />
