@@ -3,17 +3,16 @@ import React from 'react'
 import SectionOne from './sections/SectionOne'
 import SectionTwo from './sections/SectionTwo'
 import SectionThree from './sections/SectionThree'
-import SectionFour from './sections/SectionFour'
-import SectionAbout from './sections/SectionAbout'
+import SectionFour from './sections/SectionFour' 
+import Home from './sections/Home'
 
 const Index = () => {
   return (
     <>
-      <SectionOne/>
-      <SectionAbout/>
+      <Home/>
+      <SectionOne/> 
       <SectionTwo/>
-      <SectionThree/>
-      <SectionFour/>
+      <SectionThree/> 
     </>
   )
 }

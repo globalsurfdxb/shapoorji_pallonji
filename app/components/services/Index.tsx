@@ -4,7 +4,7 @@ import RightContainer from "./sections/RightContainer";
 const Index = () => {
   return (
    
-    <section id="section4" className="h-[100dvh]  relative " >
+    <section id="section3" className="h-[100dvh]  relative overflow-hidden" >
       
       <div className="grid grid-cols-2 h-full">
         <LeftContainer/>
