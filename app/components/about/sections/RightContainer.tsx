@@ -7,7 +7,7 @@ const RightContainer = () => {
     <div className="relative flex flex-col h-full px-10 xl:px-[90px] pb-20 xl:pb-[93px] pt-20 xl:pt-[50px]">
       <div className="absolute top-0 left-0 z-20 w-full h-full bg-gradient-to-r from-black/30 to-black/80"></div>
       <div className="absolute top-0 left-0 w-full z-10 h-full bg-amber-50">
-        <Image src={aboutData.rightBgImage} alt="" width={2000} height={1500} className="w-full h-full object-cover" />
+        <video src="../assets/videos/hero.mp4" autoPlay loop muted className='w-full h-full object-cover'></video>
       </div>
       <div className="relative z-40 ml-auto">
         

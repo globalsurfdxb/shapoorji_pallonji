@@ -120,4 +120,11 @@ body {
   background-clip: text;
   color: transparent;
 }
-
+.scroll-container {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+.scroll-area {
+  scroll-snap-align: start;
+}
