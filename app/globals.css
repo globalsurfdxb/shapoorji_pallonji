@@ -7,6 +7,18 @@ html {
   --foreground: #171717;
   --primary: #1E45A2;
   --secondary: #30B6F9;
+  --text-12: clamp(14px, 1.5vw + 0.5rem, 12px);
+  --text-13: clamp(16px, 1.8vw + 0.5rem, 13px);
+  --text-14: clamp(18px, 2vw + 0.5rem, 14px);
+  --text-16: clamp(16px, 2.5vw + 0.5rem, 16px);
+  --text-18: clamp(18px, 3vw + 0.5rem, 18px);
+  --text-20: clamp(20px, 3.5vw + 0.5rem, 20px);
+  --text-24: clamp(20px, 4vw + 0.5rem, 24px);
+  --text-29: clamp(29px, 4.5vw + 0.5rem, 29px);
+  --text-36: clamp(36px, 5vw + 0.5rem, 36px);
+  --text-40: clamp(40px, 5.5vw + 0.5rem, 40px);
+  --text-48: clamp(48px, 6vw + 0.5rem, 48px);
+  --text-60: clamp(60px, 6vw + 0.5rem, 60px);
 }
 
 @theme inline {
@@ -17,6 +29,20 @@ html {
   --font-sans: var(--font-dm-sans);
   --breakpoint-7xl: 103.125rem;
   --container-7xl: 98.125rem;
+
+  --text-12: var(--text-12);
+  --text-13: var(--text-13);
+  --text-14: var(--text-14);
+  --text-16: var(--text-16);
+  --text-18: var(--text-18);
+  --text-20: var(--text-20);
+  --text-24: var(--text-24);
+  --text-29: var(--text-29);
+  --text-36: var(--text-36);
+  --text-40: var(--text-40);
+  --text-48: var(--text-48);
+  --text-60: var(--text-60);
+ 
 }
 
 @media (prefers-color-scheme: dark) {
