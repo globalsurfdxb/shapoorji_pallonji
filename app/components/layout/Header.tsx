@@ -55,11 +55,16 @@ const Header: React.FC = () => {
           <a
             key={section.id}
             href={`#${section.id}`}
-            className={` transition-colors font-[300] text-white ${
-              activeSection === section.id ? "text-white font-[700] activebfr  " : "nonactivebfr hover:text-white hover:font-[700] "
-            }`}
-          >
-            {section.label}
+            className={` transition-colors font-[300]   ${activeSection === section.id
+      ? "text-white font-[700] activebfr" 
+      : "nonactivebfr hover:text-white hover:font-[700]"}
+    ${ activeSection === "section3" || activeSection === "section2"
+      ? "!text-black font-[700] activebfr hover:text-[red]"
+      : "text-white"}
+
+            `}
+          > 
+            {section.label} 
           </a>
         ))}
     </nav>
