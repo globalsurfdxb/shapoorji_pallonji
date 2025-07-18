@@ -8,12 +8,12 @@ import Home from './sections/Home'
 
 const Index = () => {
   return (
-    <>
+    <main className='scroll-container'>
       <Home/>
       <SectionOne/> 
       <SectionTwo/>
       <SectionThree/> 
-    </>
+    </main>
   )
 }
 
