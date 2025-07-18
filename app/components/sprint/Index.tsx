@@ -8,7 +8,7 @@ import "swiper/css/autoplay";
 import { sprintData } from "./data";
 const Index = () => {
   return (
-    <section id="section2" className="h-screen relative">
+    <section id="section2" className="h-screen overflow-hidden relative">
       <div className="absolute top-0 left-0 z-0 w-full h-full bg-gradient-to-l from-white/10 to-white/80 opacity-[0.1]">
         <Image src={sprintData.mainBgImage} alt="" width={2000} height={1500} className="w-full h-full object-cover" />
       </div>

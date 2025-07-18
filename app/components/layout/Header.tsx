@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image'
 import React, { useEffect, useState } from "react";
 
 const sections = [
@@ -41,9 +41,9 @@ const Header: React.FC = () => {
 
   return (
     <>
-    <div className="absolute top-4 right-4 z-50">
+    <div className="fixed top-13 right-38 z-50">
        <div className="flex items-center justify-center bg-black rounded-full p-2 w-11 h-11">
-       <img src="../assets/images/search.svg" alt="Logo" width={18} height={18} />
+       <Image src="../assets/images/search.svg" alt="Logo" width={18} height={18} />
        </div>
       </div>
     <header className="fixed top-0 left-0 z-50   ">
@@ -65,16 +65,16 @@ const Header: React.FC = () => {
     </nav>
     </div>
      <div className="bg-primary shadow ml-8 my-12 w-[133px] h-[calc(100vh-100px)]">
-     <div className="flex flex-col justify-between h-full py-10">
+     <div className="flex flex-col justify-between h-full pt-10 pb-6">
      <div className="flex justify-center items-center ">
-      <img src="../assets/images/logo.svg" alt="Logo" width={90} height={55} />
+      <Image src="../assets/images/logo.svg" alt="Logo" width={90} height={55} />
       </div> 
       <div className="flex justify-center items-center ">
-      <img src="../assets/images/menu-crbs.svg" alt="Logo" width={31} height={24} />
+      <Image src="../assets/images/menu-crbs.svg" alt="Logo" width={31} height={24} />
       </div>
       <div className="flex flex-col gap-3 justify-center items-center border-t border-[#ffffff20] ">
        <p className="text-white font-[300] text-[13px] leading-[25px] pt-3 ">SCROLL DOWN</p>
-       <img src="../assets/images/arrowcircle.svg" alt="Logo" width={87} height={87} />
+       <Image src="../assets/images/arrowcircle.svg" alt="Logo" width={87} height={87} />
       </div>
      </div>
      </div>
