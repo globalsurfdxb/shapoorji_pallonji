@@ -10,13 +10,7 @@ const RightContainer = () => {
         <Image src={aboutData.rightBgImage} alt="" width={2000} height={1500} className="w-full h-full object-cover" />
       </div>
       <div className="relative z-40 ml-auto">
-        <div className="w-[45px] h-[45px] bg-black rounded-full flex items-center justify-center">
-          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.79266 16.6637C13.0015 16.6637 16.4134 13.2315 16.4134 8.99761C16.4134 4.76373 13.0015 1.3315 8.79266 1.3315C4.58382 1.3315 1.17188 4.76373 1.17188 8.99761C1.17188 13.2315 4.58382 16.6637 8.79266 16.6637Z" stroke="#30B6F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M13.8047 14.7701L18.6702 19.6646" stroke="#30B6F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-
-        </div>
+        
       </div>
       <div className="relative z-40 pt-6 xl:pt-[35px] text-white">
         <h1 className="text-48 xl:text-60 font-light leading-[1.166666666666667]">{aboutData.title}</h1>
